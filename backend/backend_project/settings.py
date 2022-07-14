@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ORIGIN_WHITELIST =['http://43.200.76.170:80']
+CORS_ORIGIN_WHITELIST =['http://43.200.76.170:80',"http://www.holeinone.tk"]
 CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'backend_project.urls'
